@@ -1,10 +1,37 @@
 <!doctype html>
 <html> 
- <head></head> 
+ <head><style>
+  *{
+  padding:0;
+  margin:0;
+  color:white;
+}
+#navbar{
+  height:60px;
+  background-color: #0f1111;
+}
+#logo{
+  color: #f08804;
+  font-size: 25px;
+  text-decoration:none;
+}
+a{
+  margin-right:50px;
+  text-decoration:none;
+}
+button{
+  color: #f08804;
+}
+input {
+  color:black;
+}
+</style></head> 
  <body> 
-  <link rel="stylesheet" href="style.css"> 
+ 
   <div id="navbar"> <a id="logo" href="https://www.amazon.in/">amazon.in</a> <a>Account</a> <a>My cart</a> <a>Contact us</a> 
    <input placeholder="Search Amazon.in"> <button>Search</button> 
   </div> 
-<\body>
-<\html>
+  
+ </body>
+ 
+</html>
